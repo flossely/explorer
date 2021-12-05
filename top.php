@@ -1,0 +1,12 @@
+<input type='button' class="colouredButton" name="dark" style="background-color:#5f677a;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="light" style="background-color:#939393;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="blue" style="background-color:#2264c8;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="green" style="background-color:#009f4b;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="red" style="background-color:#d83d48;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="yellow" style="background-color:#ddab00;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="aqua" style="background-color:#009f8c;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="lavender" style="background-color:#8080c0;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="lime" style="background-color:#8ab300;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="magenta" style="background-color:#bb5e9a;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="orange" style="background-color:#ee7d33;" onclick="initConfig(this.name);">
+<input type='button' class="colouredButton" name="pink" style="background-color:#dd4d76;" onclick="initConfig(this.name);">
