@@ -86,7 +86,7 @@ input {
 .actionButton {
     font-family: "segoeui";
     font-size: 14pt;
-    width: 70%;
+    width: 50%;
     position: relative;
 }
 </style>
