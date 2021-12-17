@@ -83,4 +83,9 @@ input {
     font-family: "userdefine";
     font-size: 20pt;
 }
+.actionButton {
+    font-family: "segoeui";
+    font-size: 14pt;
+    width: 120px;
+}
 </style>
