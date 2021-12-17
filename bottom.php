@@ -3,5 +3,3 @@
 <img style="height:100%;" class="imgLogo" src="sys.upd.png" title="Update System" onclick="get('i', 'from', '<?=$thisSystem;?>', '<?=$srcPubRepo;?>');">
 <img style="height:100%;" class="imgLogo" src="get.eurohouse.png" title="Get Eurohouse!" onclick="get('r', '<?=$thisSystem;?>', 'eurohouse', 'eurohouse');">
 <img style="height:100%;" class="imgLogo" src="get.webshop.png" title="Get Webshop!" onclick="get('r', '<?=$thisSystem;?>', 'webshop', '<?=$srcPubRepo;?>');">
-<img style="height:100%;" class="imgLogo" src="get.hsis.png" title="Get HSIS!" onclick="get('r', '<?=$thisSystem;?>', 'hsis', '<?=$srcPubRepo;?>');">
-
