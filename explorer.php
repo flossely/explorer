@@ -1,6 +1,6 @@
 <?php
 $dir = ($_REQUEST['dir']) ? $_REQUEST['dir'] : '.';
-include 'bootstrap.php';
+include 'getinit.php';
 include 'functions.php';
 if (file_exists('config.bin')) {
     $configFile = file_get_contents('config.bin');
