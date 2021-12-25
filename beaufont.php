@@ -1,7 +1,6 @@
 <?php
 $dir = '.';
 $name = $_REQUEST['name'];
-include 'getinit.php';
 include 'functions.php';
 if (file_exists('config.bin')) {
     $configFile = file_get_contents('config.bin');

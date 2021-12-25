@@ -1,4 +1,5 @@
 <?php
+include 'gi.php';
 function getColorByCode($code)
 {
     if ($code == '01011111 01100111 01111010') {
