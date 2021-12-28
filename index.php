@@ -29,10 +29,10 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 <div class="workspace">
 <p align='center'>What do you want to do today?</p>
 <p align='center'><input type='button' class='actionButton' value="Browse for Images" onclick="window.location.href = 'explorer.php?q=.png,.jpg,.jpeg,.gif,.webp';"></p>
-<p align='center'><input type='button' class='actionButton' value="Listen to Music" onclick="window.location.href = 'explorer.php?q=.mp3,.aac,.flac';"></p>
+<p align='center'><input type='button' class='actionButton' value="Listen to Music" onclick="window.location.href = 'explorer.php?q=.mp3,.aac,.flac,.mid';"></p>
 <p align='center'><input type='button' class='actionButton' value="Watch Videos" onclick="window.location.href = 'explorer.php?q=.mp4,.mkv,.webm';"></p>
 <p align='center'><input type='button' class='actionButton' value="Read Documents" onclick="window.location.href = 'explorer.php?q=.pdf,.txt';"></p>
-<p align='center'><input type='button' class='actionButton' value="Update System" onclick="get('i', '<?=$thisSystem;?>', 'explorer', '<?=$srcPubRepo;?>');"></p>
+<p align='center'><input type='button' class='actionButton' value="Update System" onclick="get('i', 'from', 'explorer', 'flossely');"></p>
 </div>
 <div class="bottomPanel">
 <?php include 'bottom.php'; ?>
