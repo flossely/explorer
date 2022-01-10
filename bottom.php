@@ -3,3 +3,4 @@
 <img style="height:100%;" class="imgLogo" src="sys.upd.png" title="Update System" onclick="get('i', 'from', 'explorer', 'flossely');">
 <img style="height:100%;" class="imgLogo" src="get.eurohouse.png" title="Get Eurohouse!" onclick="get('r', 'explorer', 'eurohouse', 'eurohouse');">
 <img style="height:100%;" class="imgLogo" src="get.webshop.png" title="Get Webshop!" onclick="get('r', 'explorer', 'webshop', 'flossely');">
+<img style="height:100%;" class="imgLogo" src="sys.exit.png" title="Shutdown" onclick="window.location.href = '../';">
