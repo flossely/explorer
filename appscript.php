@@ -4,7 +4,7 @@
 <script src="http://www.midijs.net/lib/midi.js"></script>
 <script>
 window.onload = function() {
-    playAudio('<?=$colorName;?>.flac?rev=<?=time();?>');
+    playAudio('snd<?=$colorName;?>.flac?rev=<?=time();?>');
 }
 function playAudio(name) {
     audioPlayer.src = name;
