@@ -33,6 +33,7 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 <p align='center'><input type='button' class='actionButton' value="Watch Videos" onclick="window.location.href = 'explorer.php?q=.mp4,.mkv,.webm';"></p>
 <p align='center'><input type='button' class='actionButton' value="Read Documents" onclick="window.location.href = 'explorer.php?q=.pdf,.txt';"></p>
 <p align='center'><input type='button' class='actionButton' value="Update System" onclick="get('i', 'from', 'explorer', 'flossely');"></p>
+<p align='center'><input type='button' class='actionButton' value="Return to HSIS" onclick="get('r', 'explorer', 'hsis', 'flossely');"></p>
 </div>
 <div class="bottomPanel">
 <?php include 'bottom.php'; ?>
