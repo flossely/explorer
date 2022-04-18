@@ -71,6 +71,7 @@ input {
 .digitalClockDiv {
     position: relative;
     width: 40%;
+    top: 0px;
     font-family: "segoeui";
     font-size: 20pt;
 }
