@@ -70,9 +70,8 @@ input {
 }
 .digitalClockDiv {
     position: relative;
-    width: 60%;
-    left: 20%;
-    top: -75%;
+    width: 40%;
+    top: -50%;
 }
 .colouredButton {
     position: relative;
