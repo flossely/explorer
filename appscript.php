@@ -1,6 +1,6 @@
 <script>
 window.onload = function() {
-    playAudio('snd<?=$colorName;?>.flac?rev=<?=time();?>');
+    playAudio(soundPlayer, 'snd<?=$colorName;?>.flac?rev=<?=time();?>');
 }
 function initConfig(color) {
     var dataString = 'color=' + color;
