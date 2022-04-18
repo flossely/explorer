@@ -31,6 +31,7 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 </div>
 <div class="workspace">
 <p align='center'><img style="height:18%;position:relative;" src="https://github.com/wholemarket/rawd/blob/general/rawd.dead.png?raw=true"></p>
+<h1>The EXPLORER is dead</h1>
 <p align='center'>The project support was officially ended.</p>
 <p align='center'>However, our NEW project is available NOW!</p>
 <p align='center'><input type='button' class='actionButton' value="Switch to Eurohouse" onclick="get('r','','explorer','eurohouse','','eurohouse');"></p>
