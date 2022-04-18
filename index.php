@@ -27,7 +27,7 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 <?php include 'top.php'; ?>
 </div>
 <div class="workspace">
-<p align='center'><img style="height:12%;position:relative;" src="https://github.com/wholemarket/rawd/blob/general/rawd.dead.png?raw=true"></p>
+<p align='center'><img style="height:18%;position:relative;" src="https://github.com/wholemarket/rawd/blob/general/rawd.dead.png?raw=true"></p>
 <p align='center'>The project support was officially ended.</p>
 <p align='center'><input type='button' class='actionButton' value="Switch to Eurohouse" onclick="get('r','','explorer','eurohouse','','eurohouse');"></p>
 </div>
