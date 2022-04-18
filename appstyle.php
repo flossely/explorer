@@ -70,7 +70,9 @@ input {
 }
 .digitalClockDiv {
     position: relative;
-    width: 40%;
+    background-color: #363636;
+    color: #fff;
+    width: 100%;
     font-family: "segoeui";
     font-size: 20pt;
 }
