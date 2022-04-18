@@ -1,5 +1,6 @@
 <?php
 $dir = '.';
+include 'syspkg.php';
 include 'functions.php';
 if (file_exists('config.bin')) {
     $configFile = file_get_contents('config.bin');
@@ -40,7 +41,6 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 <div class="bottomPanel">
 <?php include 'bottom.php'; ?>
 </div>
-<audio id="audioPlayer">
 <audio id="soundPlayer" <?php if (!$sounds) { ?>muted="muted"<?php } ?>>
 </body>
 </html>
