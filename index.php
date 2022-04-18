@@ -27,17 +27,14 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 <?php include 'top.php'; ?>
 </div>
 <div class="workspace">
-<p align='center'>What do you want to do today?</p>
-<p align='center'><input type='button' class='actionButton' value="Browse for Images" onclick="window.location.href = 'explorer.php?q=.png,.jpg,.jpeg,.gif,.webp';"></p>
-<p align='center'><input type='button' class='actionButton' value="Listen to Music" onclick="window.location.href = 'explorer.php?q=.mp3,.aac,.flac,.mid';"></p>
-<p align='center'><input type='button' class='actionButton' value="Watch Videos" onclick="window.location.href = 'explorer.php?q=.mp4,.mkv,.webm';"></p>
-<p align='center'><input type='button' class='actionButton' value="Read Documents" onclick="window.location.href = 'explorer.php?q=.pdf,.txt';"></p>
-<p align='center'><input type='button' class='actionButton' value="Update System" onclick="get('i', '', 'from', 'explorer', '', 'flossely');"></p>
-<p align='center'><input type='button' class='actionButton' value="Return to HSIS" onclick="get('r', '', 'explorer', 'hsis', '', 'flossely');"></p>
+<p align='center'><img style="height:12%;position:relative;" src="https://github.com/wholemarket/rawd/blob/general/rawd.dead.png?raw=true"></p>
+<p align='center'>The project support was officially ended.</p>
+<p align='center'><input type='button' class='actionButton' value="Switch to Eurohouse" onclick="get('r','','explorer','eurohouse','','eurohouse');"></p>
 </div>
 <div class="bottomPanel">
 <?php include 'bottom.php'; ?>
 </div>
 <audio id="audioPlayer">
+<audio id="soundPlayer" <?php if (!$sounds) { ?>muted="muted"<?php } ?>>
 </body>
 </html>
