@@ -21,9 +21,7 @@ $backColor = "rgb($redLevel, $greenLevel, $blueLevel)";
 <title>EXPLORER</title>
 <link rel="shortcut icon" href="favicon.png?rev=<?=time();?>" type="image/x-icon">
 <?php include 'appstyle.php'; ?>
-<script src="jquery.js?rev=<?=time();?>"></script>
-<script src="base.js?rev=<?=time();?>"></script>
-<script src="file.js?rev=<?=time();?>"></script>
+<?php include 'base.incl.php'; ?>
 <?php include 'appscript.php'; ?>
 </head>
 <body>
